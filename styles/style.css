@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-#description {
+.description {
   width: 55%;
   font-family: "Poppins";
   font-style: normal;
@@ -32,21 +32,71 @@
     padding: 0 30px;
 }
 
+
+
+/* -------------
+first section 
+-----------------*/
+
+.first-section{
+    margin-top: 80px;
+    
+}
+.section-title{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 52px;
+}
+.description-2 {
+    width: 57%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 225px;
+    
+  }
+
+.gradient{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+border: 1px solid #E7E7E7;
+}
+
+.logo{
+    width: 20%;
+}
+.logo-2{
+    width: 16%;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
 
     #banner{
         margin-right: 50px;
     }
   #title {
-    width: 65%;
+    width: 69%;
     padding: 0;
     font-size: 19px;
     line-height: 22px;
     margin-bottom: 4px;
   }
 
-  #description {
-    width: 88%;
+  .description {
+    width: 93%;
     font-size: 9px;
     line-height: 14px;
     margin-bottom: 10px;
@@ -65,4 +115,39 @@
     padding: 0;
     border: none;
   }
+
+.first-section{
+    margin-top: 50px;
+}
+
+
+.section-title {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.description-2 {
+    width: 100%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
