@@ -1,0 +1,68 @@
+#banner{
+    margin-right: 20px;
+}
+#title {
+  width: 75%;
+  padding: 0 70px;
+  font-family: "EB Garamond";
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+#description {
+  width: 55%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #e7e7e7;
+  margin-bottom: 30px;
+}
+#search {
+  width: 500px;
+  height: 50px;
+  margin-right: 20px;
+  padding-left: 20px;
+
+}
+#button{
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 576px) {
+
+    #banner{
+        margin-right: 50px;
+    }
+  #title {
+    width: 65%;
+    padding: 0;
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 4px;
+  }
+
+  #description {
+    width: 88%;
+    font-size: 9px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  #search {
+    width: 150px;
+    height: 29px;
+    font-size: 10px;
+    margin-right: 9px;
+    margin-left: 25px;
+  }
+  #button {
+    height: 29px;
+    width: 65px;
+    font-size: 11px;
+    padding: 0;
+    border: none;
+  }
+}
