@@ -88,7 +88,7 @@ border: 1px solid #E7E7E7;
         margin-right: 50px;
     }
   #title {
-    width: 69%;
+    width: 85%;
     padding: 0;
     font-size: 19px;
     line-height: 22px;
@@ -96,21 +96,21 @@ border: 1px solid #E7E7E7;
   }
 
   .description {
-    width: 93%;
+    width: 97%;
     font-size: 9px;
     line-height: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   #search {
     width: 150px;
-    height: 29px;
-    font-size: 10px;
-    margin-right: 9px;
-    margin-left: 25px;
+    height: 27px;
+    font-size: 9px;
+    margin-right: 5px;
+    margin-left: 28px;
   }
   #button {
-    height: 29px;
-    width: 65px;
+    height: 27px;
+    width: 60px;
     font-size: 11px;
     padding: 0;
     border: none;
