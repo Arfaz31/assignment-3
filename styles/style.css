@@ -76,6 +76,25 @@ border: 1px solid #E7E7E7;
 
 
 
+/* ----------
+Second section slider
+--------------*/
+
+.me{
+  width: 15% ;
+}
+.my-bio{
+  padding-bottom: 140px;
+}
+.name{
+  padding-bottom: 30px;
+}
+
+.descript{
+  width: 100%;
+ margin-top: 20px ;
+ 
+}
 
 
 
@@ -140,8 +159,19 @@ border: 1px solid #E7E7E7;
     margin-left: 0;
 }
 
+.me{
+  width: 40% ;
+}
+.my-bio{
+  padding-bottom: 40px;
+}
+ 
+.descript{
+  width: 100%;
+ margin: 0px ;
+ padding-top: 10px;
 
-
+}
 
 
 
