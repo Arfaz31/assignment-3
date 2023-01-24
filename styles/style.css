@@ -1,5 +1,5 @@
-#banner{
-    margin-right: 20px;
+#banner {
+  margin-right: 20px;
 }
 #title {
   width: 75%;
@@ -26,86 +26,84 @@
   height: 50px;
   margin-right: 20px;
   padding-left: 20px;
-
 }
-#button{
-    padding: 0 30px;
+#button {
+  padding: 0 30px;
 }
-
-
 
 /* -------------
 first section 
 -----------------*/
 
-.first-section{
-    margin-top: 80px;
-    
+.first-section {
+  margin-top: 80px;
 }
-.section-title{
-    font-family: 'EB Garamond';
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 52px;
+.section-title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
 }
 .description-2 {
-    width: 57%;
-    font-family: "Poppins";
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-left: 225px;
-    
-  }
-
-.gradient{
-    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
-border: 1px solid #E7E7E7;
+  width: 57%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 225px;
 }
 
-.logo{
-    width: 20%;
-}
-.logo-2{
-    width: 16%;
+.gradient {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  border: 1px solid #e7e7e7;
 }
 
-
-
+.logo {
+  width: 20%;
+}
+.logo-2 {
+  width: 16%;
+}
 
 /* ----------
 Second section slider
 --------------*/
 
-.me{
-  width: 15% ;
+.me {
+  width: 15%;
 }
-.my-bio{
+.my-bio {
   padding-bottom: 140px;
 }
-.name{
+.name {
   padding-bottom: 30px;
 }
 
-.descript{
+.descript {
   width: 100%;
- margin-top: 20px ;
- 
+  margin-top: 20px;
+}
+
+/* footer */
+.details {
+  padding: 50px;
+}
+.link {
+  padding-left: 85px;
 }
 
 
 
-
-
-
+/* ------------
+media queries 
+----------------*/
 @media screen and (max-width: 576px) {
-
-    #banner{
-        margin-right: 50px;
-    }
+  #banner {
+    margin-right: 50px;
+  }
   #title {
     width: 85%;
     padding: 0;
@@ -135,20 +133,19 @@ Second section slider
     border: none;
   }
 
-.first-section{
+  .first-section {
     margin-top: 50px;
-}
+  }
 
-
-.section-title {
-    font-family: 'EB Garamond';
+  .section-title {
+    font-family: "EB Garamond";
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
     line-height: 40px;
-}
+  }
 
-.description-2 {
+  .description-2 {
     width: 100%;
     font-family: "Poppins";
     font-style: normal;
@@ -157,29 +154,29 @@ Second section slider
     text-align: center;
     margin-bottom: 40px;
     margin-left: 0;
-}
+  }
 
-.me{
-  width: 40% ;
-}
-.my-bio{
-  padding-bottom: 40px;
-}
- 
-.descript{
-  width: 100%;
- margin: 0px ;
- padding-top: 10px;
+  .me {
+    width: 40%;
+  }
+  .my-bio {
+    padding-bottom: 40px;
+  }
 
-}
+  .descript {
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+  }
 
+  #faq {
+    width: 100%;
+  }
 
-
-#faq{
-  width: 100%;
-}
-
-
-
-
+  .details {
+    padding: 0px;
+  }
+  .link {
+    padding: 12px;
+  }
 }
