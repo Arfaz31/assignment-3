@@ -54,9 +54,38 @@
               </li>
             </ul>
 
-            <button type="button" class="btn btn-info text-white py-2">
-              Free Consultation
-            </button>
+<!-- ----
+  modal button 
+-------->
+            <div>
+              <button type="button" class="btn btn-info text-white py-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Free Consultation</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Recipient:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -383,7 +412,13 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>The basic difference between CSS Grid Layout and CSS Flexbox Layout</strong> is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. 
+                  <strong
+                    >The basic difference between CSS Grid Layout and CSS
+                    Flexbox Layout</strong
+                  >
+                  is that flexbox was designed for layout in one dimension -
+                  either a row or a column. Grid was designed for
+                  two-dimensional layout - rows, and columns at the same time.
                 </div>
               </div>
             </div>
@@ -407,7 +442,15 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>Media queries are a key part of responsive web design,</strong> as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.
+                  <strong
+                    >Media queries are a key part of responsive web
+                    design,</strong
+                  >
+                  as they allow you to create different layouts depending on the
+                  size of the viewport, but they can also be used to detect
+                  other things about the environment your site is running on,
+                  for example whether the user is using a touchscreen rather
+                  than a mouse.
                 </div>
               </div>
             </div>
@@ -431,7 +474,12 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>A box in CSS consists of a content area,</strong> which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS. 
+                  <strong>A box in CSS consists of a content area,</strong>
+                  which is where any text, images, or other HTML elements are
+                  displayed. This is optionally surrounded by padding, a border,
+                  and a margin, on one or more sides. The box model describes
+                  how these elements work together to create a box as displayed
+                  by CSS.
                 </div>
               </div>
             </div>
@@ -441,21 +489,23 @@
                   class="accordion-button collapsed fw-bold me-5 bg-body-tertiary py-4"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
+                  data-bs-target="#collapseFour"
                   aria-expanded="false"
-                  aria-controls="collapseThree"
+                  aria-controls="collapseFour"
                 >
                   3. What is Semantic tag? Give some example.
                 </button>
               </h2>
               <div
-                id="collapseThree"
+                id="collapseFour"
                 class="accordion-collapse collapse"
                 aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>Semantic HTML tags are tags</strong>  that define the meaning of the content they contain. For example, tags like  header, article, and footer are semantic HTML tags. 
+                  <strong>Semantic HTML tags are tags</strong> that define the
+                  meaning of the content they contain. For example, tags like
+                  header, article, and footer are semantic HTML tags.
                 </div>
               </div>
             </div>
